@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header {
+    background: #1F95A6;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+h1 {
+    font-size: 44px;
+    color: white;
+    letter-spacing: 2px;
+    font-style: italic;
+    cursor: pointer;
+    text-shadow: rgb(238, 0, 0) 2px 3px 15px;
+}
+
+h1:hover {
+    transition: .3s;
+    font-size: 44.5px;
+    color: white;
+    text-shadow: red 2px 3px 15px;
+}
+
+h1 > i {
+    transition: .3s;
+    color: rgb(192, 2, 49);
+    text-shadow: rgba(255, 255, 255, 0.671) 1px 2px 5px;
+}
+
+h1:hover > i {
+    transition: .3s;
+    font-size: 44.5px;
+    text-shadow: white 2px 3px 15px;
+}
+
+
+ul {
+    padding-bottom: 4px;
+    font-size: 20px;
+    text-align: center;
+}
+
+li {
+    color: white;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 5px;
+    font-weight: 500;
+    border-left: 1px solid white;
+    transition: 1s;
+}
+
+li:first-child {
+    border-left: 0px !important;
+}
+
+li:hover {
+    background: white;
+    color: black;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;   
+    font-size: 17px;
+}
+
+caption {
+    color: rgb(192, 2, 49);
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+    letter-spacing: 1.8px;
+}
+
+thead th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background: #0797c7;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+}
+
+tr, th, td {
+    border: 1px #31d6b2f8 solid;
+}
+
+tbody > tr > td {
+    padding: 8px;
+    padding-left: 15px !important;
+}
+
+table tbody tr:nth-child(odd) {
+    background: white;
+}
+
+table tbody tr:nth-child(even) {
+    background:#1cd9b09d;
+}
+
+tbody > tr:hover {
+    background: #31d6b2f8 !important;
+    padding-left: 15px !important;
+}
+
+tbody > tr > td:first-child {
+    text-align: center;
+    padding: 0 !important;
+}
+
+tbody > tr > td:last-child {
+    text-align: center;
+    padding: 0 !important;
+}
+
+
+
+table tbody tr td a {
+    background: rgba(132, 5, 182, 0.705);
+    padding: 5px 35px;
+    color: white;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

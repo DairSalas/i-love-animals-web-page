@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(252, 246, 228);
+}
+h2 {
+    color: black;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+button {
+    width: 90px;
+    height: 30px;
+    color: white;
+    background: brown;
+    border: 1px solid transparent;
+    border-radius: 20rem;
+}
+
+img {
+    width: 840px;
+    height: 400px;
+}
